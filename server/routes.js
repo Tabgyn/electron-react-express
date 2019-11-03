@@ -1,5 +1,9 @@
-import { Router } from 'express';
+const { Router } = require('express');
 
 const routes = new Router();
 
-export default routes;
+routes.get('/', function(req, res) {
+  res.send('Electron + React + Express');
+});
+
+module.exports = routes;
