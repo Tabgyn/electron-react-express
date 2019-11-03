@@ -2,7 +2,7 @@ const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const isDev = require('electron-is-dev');
 
-require('../server/index.js');
+require('./server/index.js');
 
 let mainWindow;
 
