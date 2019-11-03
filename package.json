@@ -26,9 +26,11 @@
   },
   "dependencies": {
     "electron-is-dev": "^1.1.0",
+    "express-async-errors": "^3.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "youch": "^2.0.10"
   },
   "scripts": {
     "start": "rescripts start",
