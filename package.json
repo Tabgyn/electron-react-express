@@ -3,7 +3,7 @@
   "description": "Electron + Create React App + Electron Builder",
   "version": "0.1.0",
   "private": true,
-  "main": "src/electron.js",
+  "main": "public/electron.js",
   "homepage": "./",
   "author": {
     "name": "Tiago Azevedo Borges",
